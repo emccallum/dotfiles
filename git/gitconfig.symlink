@@ -37,6 +37,7 @@
     commend = commit --amend --no-edit
     
     p = pull --rebase
+    purr = pull --rebase
     pm = push origin master
     ppm = !git pull --rebase && git push origin master
     mppm = !git checkout master && git merge develop master && git ppm && git checkout develop
